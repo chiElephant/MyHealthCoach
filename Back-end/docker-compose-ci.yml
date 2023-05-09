@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_DB=${DB_DATABASE}
+    ports:
+      - 5432:5432
+    volumes:
+      - ./schemas/schemaFile.sql:/docker-entrypoint-initdb.d/schemaFile.sql

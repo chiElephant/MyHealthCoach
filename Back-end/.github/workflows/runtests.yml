@@ -1,0 +1,42 @@
+name: Integration tests CI
+
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: create env file
+        run: |
+          echo "${{ secrets.ENV_FILE }}" > .env
+
+      - name: Start db container from compose file
+        run: docker compose -f docker-compose-ci.yml up -d
+
+      - name: Install node
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm i --frozen-lockfile
+
+      - name: Run tests
+        run: npm test
+
+      - name: Stop containers
+        run: docker compose down

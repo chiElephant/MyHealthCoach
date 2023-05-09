@@ -1,0 +1,40 @@
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgray;
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.links {
+  color: white;
+  font-weight: 600;
+  margin-top: 70px;
+}
+
+.links li:hover {
+  color: black;
+}
+
+.icon {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid gray;
+}
+
+.username {
+  color: white;
+  font-weight: bold;
+}
+
+.names {
+  color: white;
+}

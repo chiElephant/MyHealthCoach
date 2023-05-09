@@ -1,0 +1,136 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "muscle_group": "Chest",
+      "name": "Bench Press",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 75
+    },
+    {
+      "id": 2,
+      "muscle_group": "Back",
+      "name": "Pull Ups",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 20 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 23 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 21 }
+      ],
+      "total_calories_burned": 64
+    },
+    {
+      "id": 3,
+      "muscle_group": "Legs",
+      "name": "Squats",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 21
+    },
+    {
+      "id": 4,
+      "muscle_group": "Biceps",
+      "name": "Curls",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 102
+    },
+    {
+      "id": 5,
+      "muscle_group": "Triceps",
+      "name": "Dips",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 95
+    },
+    {
+      "id": 6,
+      "muscle_group": "Back",
+      "name": "Rows",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 86
+    },
+    {
+      "id": 7,
+      "muscle_group": "Biceps",
+      "name": "Hammer Curls",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 44
+    },
+    {
+      "id": 8,
+      "muscle_group": "Chest",
+      "name": "Dumbell Bench Press",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 23
+    },
+    {
+      "id": 9,
+      "muscle_group": "Triceps",
+      "name": "Skull Crushers",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 12
+    },
+    {
+      "id": 10,
+      "muscle_group": "Legs",
+      "name": "Hamstring Curls",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 33
+    },
+    {
+      "id": 11,
+      "muscle_group": "Legs",
+      "name": "Leg Press",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 47
+    },
+    {
+      "id": 12,
+      "muscle_group": "Legs",
+      "name": "Calf Raises",
+      "sets": [
+        { "id": 1, "reps": 10, "actual": 10, "calories_burned": 30 },
+        { "id": 2, "reps": 10, "actual": 8, "calories_burned": 25 },
+        { "id": 3, "reps": 10, "actual": 7, "calories_burned": 20 }
+      ],
+      "total_calories_burned": 87
+    }
+  ]
+}
